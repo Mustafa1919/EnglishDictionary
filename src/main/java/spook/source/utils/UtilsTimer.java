@@ -1,15 +1,21 @@
 package spook.source.utils;
 
+import spook.interfaces.observer.Observer;
+import spook.source.observer.NoticeObservable;
 
 import java.util.Date;
 
-public class UtilsTimer extends Thread{
+public class UtilsTimer extends Thread implements Observer {
 
     private boolean ifFinish ;
     private int milliseconds;
     private boolean ifTrueTime;
+    private NoticeObservable noticeObservable = null;
 
     public UtilsTimer(){
+        if(noticeObservable == null)
+            noticeObservable = NoticeObservable.getNoticeObservable();
+        noticeObservable.addObserver(this);
         this.ifFinish = false;
     }
 
@@ -32,6 +38,7 @@ public class UtilsTimer extends Thread{
 
     public void killTimer() throws Exception{
         setIfFinish(false);
+        noticeObservable.removeObserver(this);
         this.stop();
     }
 
@@ -55,10 +62,12 @@ public class UtilsTimer extends Thread{
             this.ifTrueTime = true;
             killTimer();
         } catch (Exception e) {
-            //Timer Log Kaydı Olacak
+            //Timer killing error will be loged
         }
     }
 
 
-
+    public void advise() {
+        //Noting Doing
+    }
 }
