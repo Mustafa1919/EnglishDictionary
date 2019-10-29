@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f101bf20-695e-40d6-86c4-f40a0555c791" name="Default Changelist" comment="" />
+    <list default="true" id="f101bf20-695e-40d6-86c4-f40a0555c791" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spook/interfaces/observer/Observable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spook/interfaces/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spook/source/observer/NoticeObservable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnglishDictionary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EnglishDictionary.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spook/interfaces/physical/IReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spook/interfaces/physical/IReadFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spook/source/utils/UtilsTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spook/source/utils/UtilsTimer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spook/source/utils/Commend.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spook/source/utils/Commend.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spook/source/utils/UtilsTimer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spook/source/utils/UtilsTimer.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +43,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Si84ZVUBnEA3JLYfnV7SRDOjjt" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -76,10 +92,25 @@
       <workItem from="1572165703315" duration="4453000" />
       <workItem from="1572202158371" duration="3705000" />
       <workItem from="1572291243598" duration="3449000" />
+      <workItem from="1572367603570" duration="2434000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/EnglishDictionary$EnglishDictionary.ic" NAME="EnglishDictionary Coverage Results" MODIFIED="1572368081480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
