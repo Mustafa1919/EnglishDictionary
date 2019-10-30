@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f101bf20-695e-40d6-86c4-f40a0555c791" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spook/interfaces/observer/Observable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spook/interfaces/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spook/source/observer/NoticeObservable.java" afterDir="false" />
+    <list default="true" id="f101bf20-695e-40d6-86c4-f40a0555c791" name="Default Changelist" comment="Merge branch 'master' of https://github.com/Mustafa1919/EnglishDictionary&#10;&#10;# Conflicts:&#10;#&#9;EnglishDictionary.iml&#10;#&#9;src/main/java/spook/interfaces/physical/IReadFile.java&#10;#&#9;src/main/java/spook/source/utils/UtilsTimer.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EnglishDictionary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EnglishDictionary.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spook/interfaces/physical/ICheckFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spook/interfaces/physical/ICheckFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/spook/interfaces/physical/IReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spook/interfaces/physical/IReadFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spook/source/utils/UtilsTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spook/source/utils/UtilsTimer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spook/source/utils/Commend.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spook/source/utils/Commend.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spook/source/utils/UtilsTimer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spook/source/utils/UtilsTimer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spook/interfaces/physical/IWriteFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spook/interfaces/physical/IWriteFile.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,11 +41,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1Si84ZVUBnEA3JLYfnV7SRDOjjt" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -92,7 +98,8 @@
       <workItem from="1572165703315" duration="4453000" />
       <workItem from="1572202158371" duration="3705000" />
       <workItem from="1572291243598" duration="3449000" />
-      <workItem from="1572367603570" duration="2434000" />
+      <workItem from="1572367603570" duration="3442000" />
+      <workItem from="1572463536635" duration="3952000" />
     </task>
     <servers />
   </component>
@@ -104,11 +111,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge branch 'master' of https://github.com/Mustafa1919/EnglishDictionary&#10;&#10;# Conflicts:&#10;#&#9;EnglishDictionary.iml&#10;#&#9;src/main/java/spook/interfaces/physical/IReadFile.java&#10;#&#9;src/main/java/spook/source/utils/UtilsTimer.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/Mustafa1919/EnglishDictionary&#10;&#10;# Conflicts:&#10;#&#9;EnglishDictionary.iml&#10;#&#9;src/main/java/spook/interfaces/physical/IReadFile.java&#10;#&#9;src/main/java/spook/source/utils/UtilsTimer.java" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/EnglishDictionary$EnglishDictionary.ic" NAME="EnglishDictionary Coverage Results" MODIFIED="1572368081480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

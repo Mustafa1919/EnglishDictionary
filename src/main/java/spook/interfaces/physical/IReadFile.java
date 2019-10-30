@@ -1,7 +1,13 @@
 package spook.interfaces.physical;
 
-public interface IReadFile {
+import java.util.stream.Stream;
 
+public interface IReadFile extends ICheckFile {
 
+    void startReadFile() throws Exception;
+
+    //boolean ifExistFile(String path) throws Exception;
+
+    Stream readFile() throws Exception;
 
 }

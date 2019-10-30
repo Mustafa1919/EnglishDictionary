@@ -1,4 +1,11 @@
 package spook.interfaces.physical;
 
-public interface IWriteFile {
+import java.util.stream.Stream;
+
+public interface IWriteFile extends ICheckFile{
+
+    boolean startWriteFile() throws Exception;
+
+    boolean writeFile(Stream writingData) throws Exception;
+
 }
