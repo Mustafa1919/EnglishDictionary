@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f101bf20-695e-40d6-86c4-f40a0555c791" name="Default Changelist" comment="Merge branch 'master' of https://github.com/Mustafa1919/EnglishDictionary&#10;&#10;# Conflicts:&#10;#&#9;EnglishDictionary.iml&#10;#&#9;src/main/java/spook/interfaces/physical/IReadFile.java&#10;#&#9;src/main/java/spook/source/utils/UtilsTimer.java">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnglishDictionary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EnglishDictionary.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spook/interfaces/physical/ICheckFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spook/interfaces/physical/ICheckFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spook/interfaces/physical/IReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spook/interfaces/physical/IReadFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spook/interfaces/physical/IWriteFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spook/interfaces/physical/IWriteFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spook/source/model/DataComparison.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spook/source/model/DataComparison.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spook/source/model/DataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spook/source/model/DataController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spook/source/model/DataObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spook/source/model/DataObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spook/source/start/StartProje.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spook/source/start/StartProje.java" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +30,63 @@
     <expand />
     <select />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spook/source/model/DataComparison.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="21" column="87" selection-start-line="21" selection-start-column="87" selection-end-line="21" selection-end-column="87" />
+              <folding>
+                <element signature="method#ifDeleteThisWord#0;class#DataComparison#0" />
+                <element signature="method#ifThisEnglishWordExist#0;class#DataComparison#0" />
+                <element signature="method#ifEquals#0;class#DataComparison#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spook/source/model/DataController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+              <folding>
+                <element signature="method#ifTurkishMeaningTrue#0;class#DataController#0" />
+                <element signature="method#ifTurkishMeaningTrue#1;class#DataController#0" />
+                <element signature="method#ifEnglishMeaningTrue#0;class#DataController#0" />
+                <element signature="method#ifTurkishMeaningTrue#2;class#DataController#0" />
+                <element signature="method#isThereEnglishRight#0;class#DataController#0" />
+                <element signature="method#isThereEnglishRight#1;class#DataController#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spook/source/start/StartProje.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spook/source/model/DataObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -41,6 +99,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/spook/source/model/DataObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spook/source/start/StartProje.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spook/source/model/DataComparison.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spook/source/model/DataController.java" />
+      </list>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -48,15 +116,102 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="148" />
+    <option name="y" value="27" />
+    <option name="width" value="1400" />
+    <option name="height" value="820" />
+  </component>
   <component name="ProjectId" id="1Si84ZVUBnEA3JLYfnV7SRDOjjt" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="EnglishDictionary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EnglishDictionary" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EnglishDictionary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EnglishDictionary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EnglishDictionary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EnglishDictionary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EnglishDictionary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EnglishDictionary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EnglishDictionary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EnglishDictionary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spook" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EnglishDictionary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EnglishDictionary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spook" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EnglishDictionary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EnglishDictionary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spook" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EnglishDictionary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EnglishDictionary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spook" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="start" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -100,8 +255,48 @@
       <workItem from="1572291243598" duration="3449000" />
       <workItem from="1572367603570" duration="3442000" />
       <workItem from="1572463536635" duration="3952000" />
+      <workItem from="1572536116096" duration="4719000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4719000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Learn" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Messages" weight="0.32974428" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -112,8 +307,28 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
           </value>
         </entry>
       </map>
@@ -125,5 +340,48 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/EnglishDictionary$EnglishDictionary.ic" NAME="EnglishDictionary Coverage Results" MODIFIED="1572368081480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/spook/source/start/StartProje.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spook/source/model/DataObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spook/source/model/DataComparison.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="21" column="87" selection-start-line="21" selection-start-column="87" selection-end-line="21" selection-end-column="87" />
+          <folding>
+            <element signature="method#ifDeleteThisWord#0;class#DataComparison#0" />
+            <element signature="method#ifThisEnglishWordExist#0;class#DataComparison#0" />
+            <element signature="method#ifEquals#0;class#DataComparison#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spook/source/model/DataController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+          <folding>
+            <element signature="method#ifTurkishMeaningTrue#0;class#DataController#0" />
+            <element signature="method#ifTurkishMeaningTrue#1;class#DataController#0" />
+            <element signature="method#ifEnglishMeaningTrue#0;class#DataController#0" />
+            <element signature="method#ifTurkishMeaningTrue#2;class#DataController#0" />
+            <element signature="method#isThereEnglishRight#0;class#DataController#0" />
+            <element signature="method#isThereEnglishRight#1;class#DataController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

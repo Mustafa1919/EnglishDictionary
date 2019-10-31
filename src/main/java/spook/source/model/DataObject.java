@@ -17,6 +17,7 @@ public class DataObject extends DataController {
     public boolean add(Object englishWord , Object turkishMeaning , Object ETNumberOfTrue , Object TENumberOfTrue){
         try{
             if(this.wordDictionary != null){
+                //Önce gelen kelime varmı yokmu kontrol et
                 Object[] tmpArray = {englishWord , turkishMeaning , ETNumberOfTrue , TENumberOfTrue};
                 this.wordDictionary.add(tmpArray);
                 return true;
@@ -25,6 +26,11 @@ public class DataObject extends DataController {
         catch (Exception e){
             return false;
         }
+        return false;
+    }
+
+    public boolean delete(Object englishWord){
+        // Delete Komutu Çalıştır
         return false;
     }
 
